@@ -10,11 +10,13 @@ body{
     width: 100%;
     height: 100%;
 }
-.centered{
+#centered{
     background: white;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     width: 80%;
-    padding: 10px;
+    height: 80vh;
+    overflow-x: hidden;
+
     
 }
 #main-area{
@@ -27,4 +29,19 @@ body{
     font-size: 18pt;
     padding: 10px;
     color:white;
+}
+#balance_area{
+    display: inline-flex;
+    padding-top:20px;
+}
+.avl,.pnd{
+    padding: 10px;
+    font-size: 16pt;
+}
+.padder
+{
+    padding-top:10px;
+}
+.webix_view{
+    border-color: rgba(0, 0, 0, 0.0)
 }
